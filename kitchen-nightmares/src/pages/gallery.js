@@ -8,23 +8,14 @@ import hellsKitchen from "../img/hells-kitchen.jpg";
 
 export default function Gallery() {
     return (
-        <>
+        <div>
             <h1>Gallery</h1>
-            <Row>
-                <Container fluid>
-                    <Row>
-                    <Col xs={6} md={2}>
-                        <img src={kitchenNightmares} width={250} height={400}/>
-                    </Col>
-                    <Col xs={6} md={2}>
-                        <img source={masterChef} width={250} height={400}/>
-                    </Col>
-                    <Col xs={6} md={2}>
-                        <img src={hellsKitchen} width={250} tall={400}/>
-                    </Col>
-                    </Row>
-                </Container>
-            </Row>
-        </>
+            <div class="galleryImgs">
+            <img src={kitchenNightmares} width={200} height={325} alt = "kitchen nightmares"/>
+            <img src={masterChef} width={200} height={325} alt = "master chef"/>
+            <img src={hellsKitchen} width={200} tall={400} alt = "hells kitchen"/>
+            </div>
+            
+        </div>
     );
 };

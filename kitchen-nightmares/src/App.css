@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+  margin: 125px;
+}
+
+.galleryImgs {
+  margin: 125px;
+  border: 10px solid;
+  border-color: gray;
+  border-radius: 10px;
+  box-shadow: 10ps 5px 5px black;
+}
+
+.background {
+  background-color: gray;
+}
